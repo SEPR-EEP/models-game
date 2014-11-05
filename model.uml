@@ -27,7 +27,7 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0kPt0V6WEeSLzPlIIV-Vtg"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0kPt0l6WEeSLzPlIIV-Vtg" value="*"/>
       </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_eXD5AGBOEeSqL4GcLDqFQQ" name="contracts" type="_tITVMGBNEeSqL4GcLDqFQQ" association="_eXIKcGBOEeSqL4GcLDqFQQ">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_eXD5AGBOEeSqL4GcLDqFQQ" name="contracts">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_eXD5AWBOEeSqL4GcLDqFQQ"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_eXD5AmBOEeSqL4GcLDqFQQ" value="*"/>
       </ownedAttribute>
@@ -88,7 +88,7 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_g5-ioV6WEeSLzPlIIV-Vtg" value="1"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_g5-iol6WEeSLzPlIIV-Vtg" value="*"/>
       </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_Wm4e0GDeEeSe9u7L8PUPaQ" name="artificialObstacle" type="_7ivjEGDdEeSe9u7L8PUPaQ" association="_Wm5F4GDeEeSe9u7L8PUPaQ">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Wm4e0GDeEeSe9u7L8PUPaQ" name="trap" type="_7ivjEGDdEeSe9u7L8PUPaQ" association="_Wm5F4GDeEeSe9u7L8PUPaQ">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Wm4e0WDeEeSe9u7L8PUPaQ" value="1"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Wm4e0mDeEeSe9u7L8PUPaQ" value="1"/>
       </ownedAttribute>
@@ -197,35 +197,10 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0kQU416WEeSLzPlIIV-Vtg" value="1"/>
       </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_tITVMGBNEeSqL4GcLDqFQQ" name="Contract">
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_u-lhYGBNEeSqL4GcLDqFQQ" name="cost" visibility="public" type="_OiZZQF6UEeSLzPlIIV-Vtg">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_yeR7YGBNEeSqL4GcLDqFQQ" value="1"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_yeTwkGBNEeSqL4GcLDqFQQ" value="1"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_Q3paMGDVEeSe9u7L8PUPaQ" name="route" type="_O_gd8F6SEeSLzPlIIV-Vtg" association="_Q3wH4GDVEeSe9u7L8PUPaQ">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Q3paMWDVEeSe9u7L8PUPaQ" value="1"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Q3paMmDVEeSe9u7L8PUPaQ" value="1"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_OCS2UGDYEeSe9u7L8PUPaQ" name="depreciation" type="_OiZZQF6UEeSLzPlIIV-Vtg"/>
-      <ownedOperation xmi:type="uml:Operation" xmi:id="_Uwz8wGDYEeSe9u7L8PUPaQ" name="sell"/>
-    </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_aheHgGBOEeSqL4GcLDqFQQ" memberEnd="_aheHgWBOEeSqL4GcLDqFQQ _ahc5YGBOEeSqL4GcLDqFQQ">
       <ownedEnd xmi:type="uml:Property" xmi:id="_aheHgWBOEeSqL4GcLDqFQQ" name="age" type="_L8EiIF6SEeSLzPlIIV-Vtg" association="_aheHgGBOEeSqL4GcLDqFQQ">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aheHgmBOEeSqL4GcLDqFQQ" value="1"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aheHg2BOEeSqL4GcLDqFQQ" value="1"/>
-      </ownedEnd>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_eXIKcGBOEeSqL4GcLDqFQQ" memberEnd="_eXIKcWBOEeSqL4GcLDqFQQ _eXD5AGBOEeSqL4GcLDqFQQ">
-      <ownedEnd xmi:type="uml:Property" xmi:id="_eXIKcWBOEeSqL4GcLDqFQQ" name="player" type="_GIGYYF6SEeSLzPlIIV-Vtg" association="_eXIKcGBOEeSqL4GcLDqFQQ">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_eXIKcmBOEeSqL4GcLDqFQQ" value="1"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_eXIKc2BOEeSqL4GcLDqFQQ" value="1"/>
-      </ownedEnd>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_Q3wH4GDVEeSe9u7L8PUPaQ" memberEnd="_Q3wH4WDVEeSe9u7L8PUPaQ _Q3paMGDVEeSe9u7L8PUPaQ">
-      <name xsi:nil="true"/>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_Q3wH4WDVEeSe9u7L8PUPaQ" name="contract" type="_tITVMGBNEeSqL4GcLDqFQQ" association="_Q3wH4GDVEeSe9u7L8PUPaQ">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Q3wH4mDVEeSe9u7L8PUPaQ" value="1"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Q3wH42DVEeSe9u7L8PUPaQ" value="1"/>
       </ownedEnd>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_y_r2gGDVEeSe9u7L8PUPaQ" memberEnd="_y_r2gWDVEeSe9u7L8PUPaQ _y_rPcGDVEeSe9u7L8PUPaQ">
@@ -265,13 +240,13 @@
     <packagedElement xmi:type="uml:Abstraction" xmi:id="_M3y_0GDdEeSe9u7L8PUPaQ" client="_GrOv4GDdEeSe9u7L8PUPaQ" supplier="_Bs5DEGDcEeSe9u7L8PUPaQ"/>
     <packagedElement xmi:type="uml:Abstraction" xmi:id="_yQVjkGDdEeSe9u7L8PUPaQ" client="_8ZuHMF6UEeSLzPlIIV-Vtg" supplier="_GY_JUGDdEeSe9u7L8PUPaQ"/>
     <packagedElement xmi:type="uml:Abstraction" xmi:id="_y2-s0GDdEeSe9u7L8PUPaQ" client="_8sAxEF6UEeSLzPlIIV-Vtg" supplier="_GY_JUGDdEeSe9u7L8PUPaQ"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_7ivjEGDdEeSe9u7L8PUPaQ" name="ArtificialObstacle">
+    <packagedElement xmi:type="uml:Class" xmi:id="_7ivjEGDdEeSe9u7L8PUPaQ" name="Trap">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_7ivjFmDdEeSe9u7L8PUPaQ" name="speedFactor" visibility="public" type="_OiZZQF6UEeSLzPlIIV-Vtg">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7ivjF2DdEeSe9u7L8PUPaQ" value="1"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7ivjGGDdEeSe9u7L8PUPaQ" value="1"/>
       </ownedAttribute>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_Wm5F4GDeEeSe9u7L8PUPaQ" memberEnd="_Wm5F4WDeEeSe9u7L8PUPaQ _Wm4e0GDeEeSe9u7L8PUPaQ">
+    <packagedElement xmi:type="uml:Association" xmi:id="_Wm5F4GDeEeSe9u7L8PUPaQ" name="" memberEnd="_Wm5F4WDeEeSe9u7L8PUPaQ _Wm4e0GDeEeSe9u7L8PUPaQ">
       <ownedEnd xmi:type="uml:Property" xmi:id="_Wm5F4WDeEeSe9u7L8PUPaQ" name="route" type="_O_gd8F6SEeSLzPlIIV-Vtg" association="_Wm5F4GDeEeSe9u7L8PUPaQ">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Wm5F4mDeEeSe9u7L8PUPaQ"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Wm5F42DeEeSe9u7L8PUPaQ" value="1"/>
