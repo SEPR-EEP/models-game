@@ -119,7 +119,7 @@
       <ownedAttribute xmi:type="uml:Property" xmi:id="_eN9dwF6VEeSLzPlIIV-Vtg" name="speedFactor" type="_OiZZQF6UEeSLzPlIIV-Vtg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_8sAxEF6UEeSLzPlIIV-Vtg" name="Carriage"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_CnYjUF6VEeSLzPlIIV-Vtg" name="Obstacle">
+    <packagedElement xmi:type="uml:Class" xmi:id="_CnYjUF6VEeSLzPlIIV-Vtg" name="EnvironmentObstacle">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_FbcmYF6VEeSLzPlIIV-Vtg" name="description" type="_NcBnEF6UEeSLzPlIIV-Vtg"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_yCqXUF6VEeSLzPlIIV-Vtg" name="minStage" type="_OiZZQF6UEeSLzPlIIV-Vtg"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_0aOroF6VEeSLzPlIIV-Vtg" name="maxStage" visibility="public" type="_OiZZQF6UEeSLzPlIIV-Vtg">
