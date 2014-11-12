@@ -117,6 +117,10 @@
     <packagedElement xmi:type="uml:Class" xmi:id="_8ZuHMF6UEeSLzPlIIV-Vtg" name="TrainSpeedModifier">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_eN9dwF6VEeSLzPlIIV-Vtg" name="speedFactor" type="_OiZZQF6UEeSLzPlIIV-Vtg"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_sAJbEGDhEeSe9u7L8PUPaQ" name="usedOn" visibility="public" type="_NGGsUF6SEeSLzPlIIV-Vtg"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_RJRPMGmoEeSQ-_BI5MDphQ" name="turnsRemaining" visibility="public" type="_OiZZQF6UEeSLzPlIIV-Vtg">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_RJRPMWmoEeSQ-_BI5MDphQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_RJRPMmmoEeSQ-_BI5MDphQ" value="1"/>
+      </ownedAttribute>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_SRyjUGDdEeSe9u7L8PUPaQ" name="useOn" visibility="public">
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_SRyjUWDdEeSe9u7L8PUPaQ" name="train" type="_NGGsUF6SEeSLzPlIIV-Vtg"/>
       </ownedOperation>
